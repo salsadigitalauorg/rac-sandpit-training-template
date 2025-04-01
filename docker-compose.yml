@@ -1,0 +1,10 @@
+services:
+
+  fisca-py: # py container
+    build:
+      context: .
+      dockerfile: .docker/py.dockerfile
+    ports:
+      - 8800:8800
+    volumes:
+      - ./openfisca_rules:/app/openfisca-rules/openfisca_rules

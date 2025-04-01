@@ -1,0 +1,21 @@
+# Python builds
+
+*.egg-info
+*.pyc
+build
+dist
+.venv
+
+# Editors
+
+.project
+.pydevproject
+.settings
+.spyderproject
+
+# OS stuff
+
+.DS_Store
+*~
+llm/
+training/

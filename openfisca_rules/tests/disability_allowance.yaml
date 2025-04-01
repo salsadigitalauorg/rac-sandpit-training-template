@@ -1,0 +1,18 @@
+# Test files describe situations and their expected outcomes
+# We can run this test on our command line using `openfisca test --country-package openfisca_rules /app/openfisca-rules/openfisca_rules/tests/disability_allowance.yaml`
+
+- name: Eligible for Disability allowance
+  period: 2025-01-01
+  input:
+    has_disability: True
+    monthly_income: 100
+  output:
+    disability_allowance_eligible: True
+
+- name: Not eligible for Disability allowance
+  period: 2025-01-01
+  input:
+    has_disability: False
+    monthly_income: 100
+  output:
+    disability_allowance_eligible: False
