@@ -23,7 +23,8 @@
 				"ms-python.python",
 				"ms-python.isort",
 				"redhat.vscode-yaml",
-				"charliermarsh.ruff"
+				"charliermarsh.ruff",
+				"MS-vsliveshare.vsliveshare"
 			],
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
