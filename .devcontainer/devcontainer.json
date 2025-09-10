@@ -24,7 +24,8 @@
 				"ms-python.isort",
 				"redhat.vscode-yaml",
 				"charliermarsh.ruff",
-				"GitHub.classroom"
+				"ms-vsliveshare.vsliveshare",
+				"GitHub.vscode-pull-request-github"
 			],
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
